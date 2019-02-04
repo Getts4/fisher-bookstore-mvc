@@ -13,5 +13,10 @@ namespace Fisher.Bookstore.Controllers
         {
             return Content("This is the Book controller’s New action");
         }
+        [Route("books/best-sellers")]
+        public IActionResult BestSellers()
+        {
+            return Content("This is the Book controller's best-sellers action");
+        }
     }
 }
